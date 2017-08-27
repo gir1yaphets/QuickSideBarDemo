@@ -7,4 +7,10 @@
         <attr name="sidebarTextSize" format="float"/>
         <attr name="sidebarTextSizeChoose" format="float"/>
     </declare-styleable>
+    
+    <declare-styleable name="QuickSideTipsView">
+        <attr name="tipTextColor" format="color|reference"/>
+        <attr name="tipTextSize" format="dimension"/>
+        <attr name="tipViewBackgroundColor" format="color|reference"/>
+    </declare-styleable>
 </resources>

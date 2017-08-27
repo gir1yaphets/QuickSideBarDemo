@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="quickSideBarLetters">
+        <item>☆</item>
         <item>A</item>
         <item>B</item>
         <item>C</item>
@@ -19,7 +20,7 @@
         <item>P</item>
         <item>Q</item>
         <item>R</item>
-        <item>X</item>
+        <item>S</item>
         <item>T</item>
         <item>U</item>
         <item>V</item>

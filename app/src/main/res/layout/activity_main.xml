@@ -6,12 +6,20 @@
     android:layout_height="match_parent"
     tools:context="com.example.pengxiaolve.quicksidebardemo.MainActivity">
 
-    <TextView
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/citylist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/quicksidebarview"/>
+
+    <com.example.quicksidebar.QuickSideBarView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
-    <com.example.quicksidebar.QuickSideBarView
-        android:layout_width="25dp"
-        android:layout_height="match_parent"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentRight="true"
+        android:id="@+id/quicksidebarview"/>
+
+    <com.example.quicksidebar.QuickSideTipsView
+        android:id="@+id/quicksidetipsview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 </RelativeLayout>
